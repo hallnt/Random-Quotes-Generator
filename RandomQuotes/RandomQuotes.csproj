@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="JavaScript1.js" />
     <Content Include="main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
