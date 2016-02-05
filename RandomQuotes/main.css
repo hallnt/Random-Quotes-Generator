@@ -1,2 +1,56 @@
-﻿body {
+﻿/* style page body */
+body {
+  background-image: url('https://s-media-cache-ak0.pinimg.com/564x/f4/ac/6a/f4ac6aac3afb587f6cae04155656fca3.jpg');  /* give entire page an image background */
+  background-size: 100%;    /* make size of background image fit page */
+  text-align: center;           /* center align all page text */
+  font-family: Courier, monospace;  /* set font type of page text to monospace */
+}
+
+/* style container holding page information */
+#container {
+  width: 60%;  /* set container to 60% of page screen size */
+  /* make container appear in the center of page */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* style h1 heading */
+h1 {
+  color: #a4c;      /* set heading text color purple */
+  font-size: 60px;    /* set heading text size */
+  font-weight: bold;  /* make text bold */
+  font-style: oblique;  /* make text italic */
+  margin: 20px 0;      /* set margin top and bottom to 20px from edge and 0 at sides */
+}
+
+/* style intro paragraph */
+p {
+  text-align: left;             /* make paragraph text appear to left of container */
+  font-family: Helvetica, serif; /* make paragraph text different from other text/ override font-family set in body */
+  font-size: 17px;              /* set size of paragraph text */
+}
+
+/*style button to display new quote*/
+#quoteButton {
+  background-color: #bdb;  /* set background color of button */
+  border-radius: 10px;          /* make button have rounded edges */
+  box-shadow: -5px 5px 10px gray;  /* add shadow effect to button */
+  padding: 6px 10px;  /* add space between button text and edges i.e. 6px top and bottom, 10px left and right */
+  margin: 15px 0;    /* set top and bottom margin of button to 15px and 0 left and right */
+  font-size: 22px;  /* set size of button text */
+}
+
+/* style section where quote is displayed */
+#quoteSection {
+  background-color: #fff;  /* make section background white */
+  box-shadow: -10px 10px 20px #444;  /* add shadow to section */
+  padding: 10px;      /* pad text 10px all around */
+  margin: 10px auto;  /* set top and bottom margin of section to 10px and center place in center of container */
+  font-size: 18px;    /* set size of text */
+}
+
+/* style footer section */
+.footer {
+    font-family: sans-serif;    /* set font of footer text */
+    margin-top: 30px;       /* set top margin */
 }
